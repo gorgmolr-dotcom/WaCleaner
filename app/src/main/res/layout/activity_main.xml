@@ -13,25 +13,19 @@
 
         <TextView
             android:text="WaCleaner"
-            android:textSize="28sp"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF"
+            android:textSize="28sp" android:textStyle="bold" android:textColor="#FFFFFF"
             android:layout_marginTop="16dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
 
         <TextView
             android:text="تنظيف الأرقام التي ليست على واتساب"
-            android:textSize="14sp"
-            android:textColor="#8A97A8"
+            android:textSize="14sp" android:textColor="#8A97A8"
             android:layout_marginBottom="28dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
 
         <LinearLayout
             android:orientation="vertical" android:gravity="center"
-            android:padding="20dp" android:layout_marginBottom="12dp"
-            android:background="#182533"
+            android:padding="20dp" android:layout_marginBottom="12dp" android:background="#182533"
             android:layout_width="match_parent" android:layout_height="wrap_content">
             <TextView android:id="@+id/totalNum" android:text="—"
                 android:textSize="40sp" android:textStyle="bold" android:textColor="#FFFFFF"
@@ -43,8 +37,7 @@
 
         <LinearLayout
             android:orientation="vertical" android:gravity="center"
-            android:padding="20dp" android:layout_marginBottom="12dp"
-            android:background="#13351F"
+            android:padding="20dp" android:layout_marginBottom="12dp" android:background="#13351F"
             android:layout_width="match_parent" android:layout_height="wrap_content">
             <TextView android:id="@+id/waNum" android:text="—"
                 android:textSize="40sp" android:textStyle="bold" android:textColor="#4ADE80"
@@ -56,8 +49,7 @@
 
         <LinearLayout
             android:orientation="vertical" android:gravity="center"
-            android:padding="20dp"
-            android:background="#3A1C1C"
+            android:padding="20dp" android:background="#3A1C1C"
             android:layout_width="match_parent" android:layout_height="wrap_content">
             <TextView android:id="@+id/noWaNum" android:text="—"
                 android:textSize="40sp" android:textStyle="bold" android:textColor="#F87171"
@@ -67,33 +59,24 @@
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
         </LinearLayout>
 
-        <Button
-            android:id="@+id/scan"
-            android:text="🔍 فحص"
-            android:textSize="16sp"
-            android:layout_marginTop="24dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/scan" android:text="🔍 فحص"
+            android:textSize="16sp" android:layout_marginTop="24dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
 
-        <Button
-            android:id="@+id/delete"
-            android:text="🗑️ حذف الأرقام بدون واتساب"
-            android:textSize="16sp"
-            android:backgroundTint="#DC2626"
-            android:textColor="#FFFFFF"
+        <Button android:id="@+id/delete" android:text="🗑️ حذف الأرقام بدون واتساب"
+            android:textSize="16sp" android:backgroundTint="#DC2626" android:textColor="#FFFFFF"
             android:layout_marginTop="12dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
 
-        <TextView
-            android:id="@+id/status"
-            android:text="اضغط فحص للبدء"
-            android:textSize="14sp"
-            android:textColor="#8A97A8"
-            android:gravity="center"
+        <TextView android:id="@+id/status" android:text="اضغط فحص للبدء"
+            android:textSize="14sp" android:textColor="#8A97A8" android:gravity="center"
             android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:text="تطوير: أحمد الجمال · 0785097982"
+            android:textSize="12sp" android:textColor="#5A6678" android:gravity="center"
+            android:layout_marginTop="28dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
 
     </LinearLayout>
 </ScrollView>
